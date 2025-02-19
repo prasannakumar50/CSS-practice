@@ -1,39 +1,49 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS practice </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS practice</title>
     <style>
-        .boxOne{
-            width: 300px;
-            height: 300px;
-            position: relative;
-            background-color: lightgray;
-        }
-        .boxTwo{
-            width:100px;
-            height: 100px;
-            display: flex;
-            background-color: green;
-            position: absolute;
-            top: 90px;
-        }
-
+      .container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 400px;
+        height: 400px;
+        background-color: lightgray;
+      }
+      .boxOne {
+        width: 300px;
+        height: 300px;
+        position: relative;
+        background-color: lightgray;
+        display: flex;
+      }
+      .boxTwo {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        background-color: green;
+        position: absolute;
+        top: 90px;
+      }
+      .boxThree {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+      }
     </style>
-</head>
-<body>
-
-
-     <h1>---- Question 1 ----</h1>
+  </head>
+  <body>
+    <h1>---- Question 1 ----</h1>
     <div class="boxOne">
-          <div class="boxTwo">
-
-          </div>
+      <div class="boxTwo"></div>
     </div>
-    
-</body>
+
+    <h1>---- Question 2 ----</h1>
+    <div class="container">
+      <div class="boxThree"></div>
+    </div>
+  </body>
 </html>
