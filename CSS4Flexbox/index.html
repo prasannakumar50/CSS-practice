@@ -7,8 +7,8 @@
     <style>
       .container {
         display: flex;
-        justify-content: center; 
-        align-items: center; 
+        justify-content: center;
+        align-items: center;
         width: 400px;
         height: 400px;
         background-color: lightgray;
@@ -33,6 +33,39 @@
         height: 100px;
         background-color: green;
       }
+      .row{
+       display: flex;
+       flex-wrap: wrap;
+      
+      }
+
+      .nav-items{
+        border: 1px solid black;
+        list-style: none;
+        background-color: lightyellow;
+        padding: 0.5rem;
+        flex-grow: 1;
+        
+      }
+
+      .card-row{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .card{
+        border:1px solid black;
+        max-width:250px;
+        padding: 0.5rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 5px;
+        
+      }
+
+
     </style>
   </head>
   <body>
@@ -45,5 +78,35 @@
     <div class="container">
       <div class="boxThree"></div>
     </div>
+
+    <h1>---- Question 3 ----</h1>
+    <h1><hr /></h1>
+    <nav>
+      <ul class="row" style="padding-inline-start: 0px;">
+        <li class="nav-items">Home</li>
+        <li class="nav-items">about</li>
+        <li class="nav-items">products</li>
+        <li class="nav-items">cart</li>
+        <li class="nav-items">wishlist</li>
+      </ul>
+    </nav>
+    
+    <br />
+    <br />
+
+    <div class="card-row">
+    <div class="card">
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quos nisi sed porro voluptatum eius eaque fugiat saepe laudantium asperiores consequuntur, quidem illo itaque sit sint temporibus et tempore expedita fugit quam provident quaerat repudiandae?
+        
+      </p>
+      <button>Learn More</button>
+    </div>
+
+    <div class="card">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit placeat, assumenda quas autem omnis amet aspernatur iste, sapiente sunt explicabo quos quo quam asperiores maxime cum vero, repudiandae beatae aut? Maxime dolores, pariatur, molestias deleniti, labore porro beatae quae dolorem velit harum accusantium excepturi distinctio!
+     </p>
+     <button>Learn More</button>
+   </div>
+  </div>
   </body>
 </html>
