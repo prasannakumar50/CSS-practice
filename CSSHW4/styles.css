@@ -115,7 +115,8 @@
     width: 100px;
     background-color: lightgray;
     border: 1px solid lightgray;
-    box-shadow: 4px, 4px, 10px rgba(0,0,0, 0.2);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+    color: gray;
     border-radius: 5px;
 }
 
@@ -128,7 +129,8 @@
     width: 100px;
     background-color: lightgray;
     border: 1px solid lightgray;
-    box-shadow: 4px, 4px, 10px rgba(0,0,0, 0.2);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+    color: gray;
     border-radius: 5px;
 }
 
@@ -141,6 +143,7 @@
     width: 100px;
     background-color: lightgray;
     border: 2px solid lightgray;
-    box-shadow: 4px, 4px, 10px rgba(0,0,0, 0.2);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
+    color: gray;
     border-radius: 5px;
 }
