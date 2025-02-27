@@ -1,75 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS HW4</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="card"> 
-            <label>Name:</label>
-            <input type="text"  />
-            <br />
-            
-            <label>Email:</label>
-            <input type="email" />
-            <br />
+      <div class="card">
+        <label>Name:</label>
+        <input type="text" />
+        <br />
 
-            <label>Message:</label>
-            <textarea rows="5" cols="50"></textarea>
-            <br />
+        <label>Email:</label>
+        <input type="email" />
+        <br />
 
-            <button class="button">Submit</button>       
+        <label>Message:</label>
+        <textarea rows="5" cols="50"></textarea>
+        <br />
+
+        <button class="button">Submit</button>
+      </div>
+
+      <div class="card2">
+        <h1>Login</h1>
+        <div class="form">
+          <label>Email: </label>
+          <input type="text" />
+          <br />
+          <label>Password: </label>
+          <input type="password" />
+          <br />
+          <button class="btn">Login</button>
+
+          <p class="para2">Forgot password?</p>
         </div>
+      </div>
 
+      <div class="card3">
+        <h1>Photo Gallery</h1>
+        <nav class="navbar">
+          <ul class="nav">
+            <li class="nav-items"><button class="li-btn">All</button></li>
+            <li class="nav-items">Nature</li>
+            <li class="nav-items">Birds</li>
+            <li class="nav-items">Animals</li>
+          </ul>
+        </nav>
 
-        <div class="card2">
-            <h1>Login</h1>
-            <div class="form">
-            <label>Email: </label>
-            <input type="text" />
-            <br />
-            <label>Password: </label>
-            <input type="password" />
-            <br />
-            <button class="btn">Login</button>
-            
-            <p class="para2">Forgot password?</p>
-            </div>
+        <br />
+
+        <div class="innercardContainer">
+          <div class="innercard1">Nature</div>
+          <div class="innercard2">Birds</div>
+          <div class="innercard3">Animals</div>
         </div>
-
-
-        <div class="card3">
-            <h1>Photo Gallery</h1>
-            <nav class="navbar">
-               <ul class="nav">
-                 <li class="nav-items"><button class="li-btn">All</button></li>
-                 <li class="nav-items">Nature</li>
-                 <li class="nav-items">Birds</li>
-                 <li class="nav-items">Animals</li>
-               </ul>
-            </nav>
-
-             <br />
-                   
-             <div class="innercardContainer">
-               <div class="innercard1">
-                 Nature
-               </div>
-               <div class="innercard2">
-                Birds
-              </div>
-              <div class="innercard3">
-                Animals
-              </div>
-            </div>
-
-            
-
-        </div>
+      </div>
     </div>
-    
-</body>
+
+    <div class="containerTwo">
+      <div class="samplecardOne">
+        <button class="cardBtn"><b>1 month free</b></button>
+        <div class="textContainer">
+          <h2>Basic Plan</h2>
+          <button class="cardBtnTwo">$9.99/mo</button>
+        </div>
+        <b><hr /></b>
+        <p>Ad-free music listening</p>
+        <p>Download 10k songs/device</p>
+        <p>Login from 3 device</p>
+        <button class="cardBtnThree">Sign up</button>
+      </div>
+
+      <div class="samplecardOne">
+        <button class="cardBtn"><b>1 month free</b></button>
+        <div class="textContainer">
+          <h2>Pro Plan</h2>
+        </div>
+        <button class="cardBtnTwo">$19.99/mo</button>
+        <b><hr /></b>
+        <p>Ad-free music listening</p>
+        <p>Download 20k songs/device</p>
+        <p>Login from 5 device</p>
+        <button class="cardBtnThree">Sign up</button>
+      </div>
+
+      <div class="samplecardOne">
+        <button class="cardBtn"><b>1 month free</b></button>
+        <div class="textContainer">
+          <h2>Enterprise Plan</h2>
+          <button class="cardBtnTwo">$59.99/mo</button>
+        </div>
+        <b><hr /></b>
+        <p>Ad-free music listening</p>
+        <p>Download 40k songs/device</p>
+        <p>Login from unlimited device</p>
+        <button class="cardBtnThree">Sign up</button>
+      </div>
+    </div>
+
+    <div class="lastSection">
+      <div class="orderCard">
+        <h1>Review Order</h1>
+        <div class="firstDiv">
+          <h3>ITEM</h3>
+          <div class="firstInnerDiv">
+            <h3>QTY</h3>
+            <h3>TOTAL</h3>
+          </div>
+        </div>
+        <div class="secondDiv">
+          <img src="https://placehold.co/50x50" />
+          <div class="secondInnerDiv">
+            <h3>1</h3>
+            <h3>INR 999</h3>
+          </div>
+        </div>
+        <br/>
+        <div class="para">
+           <p>Limited addiction cactus print bag</p>
+           <p>1 litre, green color</p>
+        </div>
+        <br />
+
+        
+
+        <div class="lastInnerDiv">
+          <div class="firstDiv">
+            <p>Subtotal</p>
+            <div class="firstInnerDiv">
+              <h4>INR 999</h4>  
+            </div>
+          </div>
+
+        <div class="firstDiv">
+          <p>GST</p>
+          <div class="firstInnerDiv">
+            <h4>INR 179</h4>  
+          </div>
+        </div>
+
+        <div class="firstDiv">
+          <h4>Grand Total</h4>
+          <div class="firstInnerDiv">
+            <h4>INR 1179</h4>  
+          </div>
+        </div>
+      </div>
+      
+      <div class="lastDiv">
+      <button class="lastButton">Place order</button>
+      </div>
+
+      <div class="text">
+        <i>Cart Secured by Razorpay</i>
+      </div>
+
+
+      </div>
+    </div>
+  </body>
 </html>
