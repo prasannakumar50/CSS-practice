@@ -1,0 +1,64 @@
+
+
+h1{
+    text-decoration: underline;
+}
+
+body{
+    background-color: white;
+    font-size: 14px;
+}
+
+footer{
+    text-align: left;
+ }
+
+ .container{
+    height:100px;
+    width: 10px;
+    border:1px solid black;
+ }
+
+@media(min-width: 900px){
+    body{
+        background-color: lightgray;
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 600px){
+    .sidebar{
+        visibility: hidden;
+    }
+}
+
+@media(min-width: 700px){
+   p{
+    color: aqua;
+   }
+}
+
+@media(min-width: 1000px){
+    header{
+        background-color: green;
+    }
+}
+
+@media(max-height: 500px){
+    body{
+        font-size: 12px;
+    }
+}
+
+@media(width:1024px){
+     footer{
+        text-align: center;
+        color: rebeccapurple;
+     }
+}
+
+@media(max-width: 600px){
+    .container{
+        width:80%;
+    }
+}
