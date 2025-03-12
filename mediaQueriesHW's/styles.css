@@ -46,14 +46,14 @@ footer{
 
 @media(max-height: 500px){
     body{
-        font-size: 12px;
+        font-size: 19px;
     }
 }
 
 @media(width:1024px){
      footer{
         text-align: center;
-        color: rebeccapurple;
+        color: rgb(51, 153, 153);
      }
 }
 
