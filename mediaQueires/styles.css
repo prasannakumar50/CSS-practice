@@ -36,3 +36,12 @@ body{
         color:orange
     }
 }
+
+
+
+@media(max-width: 600px){
+    body{
+        background-color: purple;
+        
+    }
+}
